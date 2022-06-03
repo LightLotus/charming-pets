@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+footer {
+  background-color: #525252;
+}
+
+.img-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/lukasz-szmigiel-bz_AvHqpPIA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading-1 {
+  font-size: 3em;
+  font-weight: 800;
+  line-height: 1em;
+  letter-spacing: 0.5rem;
+}
+
+.hero-link {
+  width: 35vw;
+}
+
+.cta-link {
+  display: block;
+  background-color: #00ddc6;
+  color: #fff;
+  border: transparent;
+  border-radius: 2.5rem;
+  padding: 0.5em 1.5em;
+  transition: 0.3s;
+}
+
+.cta-link:hover {
+  color: #00ddc6;
+  border: 1px solid #00ddc6;
+  background-color: #fff;
+}
+
+.icon-offer {
+  width: 8%;
+  margin: 1em 0;
+}
+
+.social-media-icons {
+  width: 40%;
+}
+
+.social-media-icons img {
+    display: inline-block;
+    width: 2em;
+}
+
+#active {
+  color: #00ddc6;
+}
+
+@media (max-width: 600px) {
+  * {
+    text-align: center;
+  }
+
+  .hero-link {
+    display: flex;
+    width: 100%;
+  }
+
+  .copyright p {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .social-media-icons {
+    margin: auto;
+}
+}
